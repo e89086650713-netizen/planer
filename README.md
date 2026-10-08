@@ -1,11 +1,9 @@
-# Tile Planner MVP 0.1
+# Tile Planner MVP
 
-Первая рабочая основа Telegram Mini App.
+GitHub Pages deployment for `https://e89086650713-netizen.github.io/planer/`.
 
-Уже реализовано: главный экран, создание проекта, добавление комнаты, размеры, площадь/объём, localStorage.
-
-Запуск: `npm install` → `npm run dev`
-
-Сборка: `npm run build`
-
-Следующий этап: редактор стен и размеров, перегородки, двери/окна, раскладка плитки, ёлочка, раскрой и оптимизация остатков.
+- React + Vite
+- GitHub Actions deployment
+- Base path: `/planer/`
+- Responsive mobile + horizontal laptop layout
+- Local project storage in browser
