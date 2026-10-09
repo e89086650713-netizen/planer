@@ -1,0 +1,25 @@
+
+*{box-sizing:border-box}
+body{margin:0;font-family:Inter,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;background:#f4f5f7;color:#17191c}
+button,input{font:inherit}
+main{width:min(1280px,100%);margin:auto;padding:24px}
+header{display:flex;align-items:center;justify-content:space-between;margin-bottom:24px}
+header h1{margin:0;font-size:26px}
+header span{color:#777;font-size:13px}
+.hero,.card{background:#fff;border:1px solid #e4e6e9;border-radius:18px;padding:22px;margin-bottom:16px;box-shadow:0 4px 18px #00000008}
+.hero h2,.card h2,.card h3{margin-top:0}
+.hero p{color:#666}
+.card input{display:block;width:100%;padding:13px 14px;border:1px solid #d7d9dd;border-radius:10px;margin:10px 0 14px;outline:none}
+.card input:focus{border-color:#555}
+.card button{border:0;border-radius:10px;padding:13px 18px;background:#17191c;color:#fff;cursor:pointer}
+.project{display:flex;justify-content:space-between;padding:14px 0;border-top:1px solid #eee}
+.project small{color:#777}
+.back{border:0;background:none;padding:0 0 14px;cursor:pointer}
+.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:12px}
+.grid label{font-size:13px;color:#666}
+.grid input{color:#17191c}
+.stats{display:flex;align-items:baseline;gap:10px;background:#f5f6f7;padding:16px;border-radius:12px;margin-bottom:14px}
+.stats b{font-size:24px}
+.stats span{color:#777;font-size:13px}
+@media(max-width:899px){main{padding:16px}.grid{grid-template-columns:1fr}}
+@media(min-width:900px){section{max-width:900px;margin:auto}}
